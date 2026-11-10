@@ -23,8 +23,22 @@ header, main, footer {
 }
 
 a { color: var(--accent); }
+.info-note {
+  padding: 16px;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--surface);
+}
+.topic-list {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
 
-a:focus-visible {
-  outline: 3px solid var(--accent);
-  outline-offset: 3px;
+.topic-list li {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
 }
